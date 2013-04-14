@@ -8,6 +8,7 @@ html, body{
 		margin: 0px;
 		padding: 0px;
 		height:100%;
+        padding-bottom: -40px;
 		  /* Height of the footer */
 	}
 header{
@@ -18,6 +19,7 @@ header{
 }
 #wrap
 {
+    height: auto !important;
 	min-height: 100%;	
 }
 #main
@@ -25,9 +27,9 @@ header{
 	overflow: visible;
 	
 }
-#logo{
-	
-		
+#logo{	
+    margin-left:15px;
+    margin-bottom:-98px;		
 }
 aside
 {
@@ -89,13 +91,13 @@ footer{
 	margin-left: auto;
 	padding-top: 10px;
 	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
+	padding-bottom: 5px;
+	padding-left: 150px;
 }
 
 #menu li{
 	float: left;
-	padding: 0 0 10px 0;
+	padding: 0 0 3px 0;
 	position: relative;
 }
 
@@ -244,4 +246,10 @@ footer{
 {
 	clear: both;
 	float: none;	
+}
+
+/* Logo */
+#logo {
+    margin-left:15px;
+    margin-bottom:-98px;
 }

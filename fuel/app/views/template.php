@@ -7,13 +7,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <?php echo Asset::css('style.css'); ?> 
+	<?php echo Asset::js('jquery.poshytip.js'); ?>
+	<?php echo Asset::css('tip-darkgray/tip-darkgray.css'); ?>
 </head>
 <body>
 <header>
-<div class="row">
-		<div class="span10">	<?php echo Asset::img('logo.png'); ?></div>
-    	<div class="span2"><?php echo Asset::img('ribbonlogo.png'); ?></div>
-</div>
+<div id="logo"> <?php echo Asset::img('ribbonlogo.png'); ?> </div>
     	<aside class="clearfix">				
          <?php 
                     if(isset($user_info))

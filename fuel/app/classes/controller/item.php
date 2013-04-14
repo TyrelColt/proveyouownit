@@ -4,7 +4,7 @@ class Controller_Item extends Controller_Template
 
 	public function action_index()
 	{
-		$data['items'] = Model_Item::find('all');
+		$data['items'] = "Text";
 		$this->template->title = "Items";
 		$this->template->content = View::forge('item/index', $data);
 
